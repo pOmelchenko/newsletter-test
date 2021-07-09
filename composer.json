@@ -1,0 +1,32 @@
+{
+  "name": "pomelchenko/newsletter_test",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pavel Omelchenko",
+      "email": "p.omelchenko@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Test\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.91",
+    "phpunit/phpunit": "^9.5"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"App\\Test\\Repository\\UserRepositoryTest::testGetUsers":4,"App\\Test\\NewsletterTest::testSend":5},"times":{"App\\Test\\Repository\\UserRepositoryTest::testGetUsers":0.051,"App\\Test\\NewsletterTest::testSend":0.017}}
